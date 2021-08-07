@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Student Fork</title>
 </head>
@@ -14,14 +17,15 @@
             <img src="/images/logoSF.svg" alt="logo Student Fork" class = "logoSF">
         </div>
         <!-- mobilní verze menu -->
+        <div class = "menuMobileVer">
         <div class = "menuMobile-icon">
             <img src="/images/menu-icon.svg" alt="hamburger menu" class = "menuMobile-icon__img">
         </div>
         <ul class = "menuMobile">
-            <li class = "menuMonile-list menuMobile-list__home"><a href="#" class = "menuMobile-list--a menuMobile-list__home--a">HOME</a></li>
+            <li class = "menuMobile-list menuMobile-list__home"><a href="#" class = "menuMobile-list--a menuMobile-list__home--a">HOME</a></li>
             <li class = "menuMobile-list menuMobile-list__aktivity"><a href="#" class = "menuMobile-list--a menuMobile-list__home--a">AKTIVITY</a></li>
             <li class = "menuMobile-list menuMobile-list__reg"><a href="#" class = "menuMobile-list--a menuMobile-list__reg--a">REGISTRACE</a></li>
-        </ul>
+        </ul></div>
         <!-- mobilní verze menu KONEC -->
         <!-- PC verze menu -->
         <div class = "menuPC">
@@ -54,7 +58,7 @@
 
     <!-- partneři projektu -->
     <section class = "partners">
-        <h2 class = "partners__h2">Pertneři</h2>
+        <h2 class = "partners__h2">Partneři</h2>
         <p class = "partners__p">Liquorice brownie marzipan jelly beans sweet sesame snaps dessert jelly jelly beans.</p>
     </section>
 
@@ -68,14 +72,14 @@
         <div class = "social">
             <h3 class = "social__h3">Sleduj nás!</h3>
             <div class = "social-icons">
-                <img src="/images/facebook.svg" alt="facebook icon" class = "social-icon facebook-icon">
-                <img src="/images/instagram.svg" alt="instagram icon" class = "social-icon instagram-icon">
+                <a href = "facebook.com"><img src="/images/facebook.svg" alt="facebook icon" class = "social-icon facebook-icon"></a>
+                <a href = "instagram.com"><img src="/images/instagram.svg" alt="instagram icon" class = "social-icon instagram-icon"></a>
             </div>
         </div>
     </section>
 
     <!-- footer -->
-    <footer>
+    <footer class = "footer">
         <p class = "footer__p">footer</p>
     </footer>
 </body>

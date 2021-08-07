@@ -1,3 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #070094;
+}
+
+/* mobile frst , max 599px*/
+
+.logoSF{
+    width: 150px;
+}
+
+.menuPC{
+    display: none;
+}
+
+.menuMobile{
+    display: none;
 }

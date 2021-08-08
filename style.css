@@ -158,37 +158,6 @@ body{
 /* tablet */
 /* 600px + */
 @media screen and (min-width: 600px){
-    .menuMobileVer{
-        display: none;
-    }
-
-    .menuPC{
-        display: block;
-    }
-
-    .header{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .menuPC-list{
-        display: inline-block;
-    }
-
-    .menuPC-list--a{
-        display: block;
-        padding: 10px;
-        color: #FFC843;
-        text-decoration: none;
-    }
-
-    .menuPC-list__home{
-        background-color: #FFC843;
-    }
-
-    .menuPC-list__home--a{
-        color: #070094;
-    }
 
     .about{
         margin-top: 35px;
@@ -232,10 +201,6 @@ body{
         width: 200px;
     }
 
-    .menuPC{
-        margin-right: 25px;
-    }
-
     .about{
         padding: 25px 25px 5px 25px;
     }
@@ -273,6 +238,51 @@ body{
     }
 }
 
+/* 850px +*/
+@media screen and (min-width: 850px){
+    .menuMobileVer{
+        display: none;
+    }
+
+    .menuPC{
+        display: block;
+        font-size: 14px;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menuPC-list{
+        display: inline-block;
+    }
+
+    .menuPC-list--a{
+        display: block;
+        padding: 3px;
+        color: #FFC843;
+        text-decoration: none;
+    }
+
+    .menuPC-list__home{
+        background-color: #FFC843;
+    }
+
+    .menuPC-list__home--a{
+        color: #070094;
+    }
+}
+
+/* 950px + */
+@media screen and (min-width: 950px){
+    .menuPC{
+        margin-right: 10px;
+    }
+    .menuPC-list--a{
+        padding: 5px;
+    }
+}
 /* PC */
 /* 1200px + */
 @media screen and (min-width: 1200px){
@@ -374,4 +384,5 @@ body{
         background-color:  #DF144C;
         color: #F3F3FA;
     }
+
 }

@@ -249,6 +249,38 @@ body{
         font-size: 14px;
     }
 
+    .subMenu{
+        display: inline-block;
+        position: relative;
+    }
+
+    .submenuArrow{
+        width: 10px;
+        margin-left: -9px;
+    }
+
+    .menuPC-subMenu{
+        display: none;
+        font-size: 13px;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        background-color: #FFC843;
+        min-height: 60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menuPC-subMenu-list{
+        list-style: none;
+        padding: 5px 0;
+    }
+
+    .menuPC-subMenu-list--a {
+        text-decoration: none;
+        color: #070094;
+    }
+
     .header{
         display: flex;
         justify-content: space-between;
@@ -290,6 +322,7 @@ body{
         margin: 0 auto;
         max-width: 1200px;
     }
+
     .logoSF{
         width: 300px;
         padding-left: 80px;
@@ -311,6 +344,21 @@ body{
     .menuPC-list--a:hover{
         background-color: #FFC843;
         color: #070094;
+    }
+
+    .menuPC-subMenu{
+        top: 50px;
+        font-size: 16px;
+        min-height: 80px;
+        padding: 15px 0;
+    }
+
+    .menuPC-subMenu-list--a{
+        display: block;
+    }
+    .menuPC-subMenu-list--a:hover{
+        background-color: #070094;
+        color: #FFC843;
     }
 
     .container{

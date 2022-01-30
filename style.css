@@ -1,3 +1,17 @@
+:root{
+    --bodyBgColor: #070094;
+    --bodyColor: #F3F3FA;
+    --yellow: #FFC843;
+    --darkblue: #070094;
+    --menuMobileBgColor: #00B3E3;
+    --menuMobile-subMenu-borderColor: #1789CA;
+    --headersColor: #DF144C;
+    --akceBgColor: #FFC843;
+    --newsletterBtnBgColor: #00B3E3;
+    --newsletterBtnColor: #070094;
+    --footerBgColor: #DA3AB3;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +19,9 @@
 }
 
 body{
-    background-color: #070094;
+    background-color: var(--bodyBgColor);
     font-family: 'IBM Plex Mono', monospace;
-    color: #F3F3FA;
+    color: var(--bodyColor);
 }
 
 /* mobile frst , max 599px*/
@@ -34,7 +48,7 @@ body{
     padding: 15px 0;
     margin: 10px 0;
     text-align: center;
-    background-color: #00B3E3;
+    background-color: var(--menuMobileBgColor);
 }
 
 .menuMobile-list{
@@ -54,8 +68,8 @@ body{
 .menuMobile-subMenu{
     display: none;
     margin: 5px auto;
-    border-top: 1px solid #1789CA;
-    border-bottom: 1px solid #1789CA;
+    border-top: 1px solid var(--menuMobile-subMenu-borderColor);
+    border-bottom: 1px solid var(--menuMobile-subMenu-borderColor);
     padding: 5px 0;
     width: 50%;
 }
@@ -76,24 +90,25 @@ body{
 .about{
     padding: 25px 5px 5px 5px;
 }
+
 .about__h1{
     font-family: 'Catamaran', sans-serif;
     text-transform: uppercase;
-    color: #DF144C;
+    color: var(--headersColor);
     font-size: 25px;
 }
 
 .akce{
     margin: 15px 0 0 0;
     min-height: 250px;
-    background-color: #FFC843;
+    background-color: var(--akceBgColor);
     padding: 15px 5px 5px 5px;
 }
 
 .akce__h2{
     font-family: 'Catamaran', sans-serif;
     font-size: 17px;
-    color: #070094;
+    color: var(--headersColor);
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -115,7 +130,7 @@ body{
     display: block;
     width: 35px;
     height: 2px;
-    background-color: #DF144C;;
+    background-color: var(--headersColor);
     margin-bottom: 15px;
 }
 
@@ -135,7 +150,7 @@ body{
     display: block;
     width: 35px;
     height: 2px;
-    background-color: #DF144C;;
+    background-color: var(--headersColor);
     margin-bottom: 35px;
 }
 
@@ -143,8 +158,8 @@ body{
     padding: 7px 45px;
     border-radius: 12px;
     margin-left: 15px;
-    background-color: #00B3E3;
-    color:#070094;
+    background-color: var(--newsletterBtnBgColor);
+    color:var(--newsletterBtnColor);
     font-family: 'Catamaran', sans-serif;
     font-weight: 700;
     text-decoration: none;
@@ -166,7 +181,7 @@ body{
     display: block;
     width: 35px;
     height: 2px;
-    background-color: #DF144C;
+    background-color: var(--headersColor);
     margin-bottom: 15px;
 }
 
@@ -179,7 +194,7 @@ body{
     padding: 5px 0;
     height: 35px;
     text-align: center;
-    background-color: #DA3AB3;
+    background-color: var(--footerBgColor);
 }
 
 /* tablet */
@@ -292,7 +307,7 @@ body{
         position: absolute;
         top: 30px;
         left: 0;
-        background-color: #FFC843;
+        background-color: var(--yellow);
         min-height: 60px;
         width: 100%;
         text-align: center;
@@ -305,7 +320,7 @@ body{
 
     .menuPC-subMenu-list--a {
         text-decoration: none;
-        color: #070094;
+        color: var(--darkblue);
     }
 
     .header{
@@ -329,7 +344,7 @@ body{
     }
 
     .menuPC-list__home--a{
-        color: #070094;
+        color: var(--darkblue);
     }
 }
 
@@ -356,11 +371,11 @@ body{
     }
 
     .menuPC-list__home{
-        background-color: #070094;
+        background-color: var(--darkblue);
     }
 
     .menuPC-list__home--a{
-        color: #FFC843;
+        color: var(--yellow);
     }
     
     .menuPC-list--a{
@@ -369,8 +384,8 @@ body{
     }
 
     .menuPC-list--a:hover{
-        background-color: #FFC843;
-        color: #070094;
+        background-color: var(--yellow);
+        color: var(--darkblue);
     }
 
     .menuPC-subMenu{
@@ -385,8 +400,8 @@ body{
     }
 
     .menuPC-subMenu-list--a:hover{
-        background-color: #070094;
-        color: #FFC843;
+        background-color: var(--darkblue);
+        color: var(--yellow);
     }
 
     .container{

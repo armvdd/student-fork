@@ -7,10 +7,10 @@
   --menuMobileBgColor: #00b3e3;
   --menuMobile-subMenu-borderColor: #1789ca;
   --headersColor: #df144c;
-  --akceBgColor: #ffc843;
   --newsletterBtnBgColor: #00b3e3;
   --newsletterBtnColor: #070094;
   --footerBgColor: #da3ab3;
+  --akceBorder: #ffc843;
 }
 
 * {
@@ -116,8 +116,8 @@ body {
   margin: 15px 0 0 0;
   min-height: 250px;
   padding: 15px 5px 5px 5px;
-  border-top: solid 1.5px var(--yellow);
-  border-bottom: solid 1.5px var(--yellow);
+  border-top: solid 1.5px var(--akceBorder);
+  border-bottom: solid 1.5px var(--akceBorder);
 }
 
 .akce__h2 {
@@ -376,6 +376,7 @@ body {
     padding: 5px;
   }
 }
+
 /* PC */
 /* 1200px + */
 @media screen and (min-width: 1200px) {
@@ -486,7 +487,7 @@ body {
     grid-row: 2 / 4;
     border-top: 0;
     border-bottom: 0;
-    border: solid 1.75px var(--yellow)
+    border: solid 1.75px var(--akceBorder)
   }
 
   .akce__h2 {

@@ -3,6 +3,7 @@
   --bodyColor: #f3f3fa;
   --yellow: #ffc843;
   --darkblue: #070094;
+  --darkblueTransparent: #07009400;
   --menuMobileBgColor: #00b3e3;
   --menuMobile-subMenu-borderColor: #1789ca;
   --headersColor: #df144c;
@@ -24,13 +25,27 @@ body {
   color: var(--bodyColor);
 }
 
+.mainPart {
+  background: linear-gradient(to bottom, #070094e8, rgba(117, 19, 93, 0.73)),
+    url("images/background-gaeec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* mobile frst , max 599px*/
+
+.mainPart {
+  padding-bottom: 50px;
+}
 
 .logoSF {
   width: 150px;
   padding: 5px 0 0 5px;
 }
 
+.header{
+  padding-bottom: 10px;
+}
 .menuPC {
   display: none;
 }
@@ -100,16 +115,25 @@ body {
 .akce {
   margin: 15px 0 0 0;
   min-height: 250px;
-  background-color: var(--akceBgColor);
   padding: 15px 5px 5px 5px;
+  border-top: solid 1.5px var(--yellow);
+  border-bottom: solid 1.5px var(--yellow);
 }
 
 .akce__h2 {
   font-family: "Catamaran", sans-serif;
   font-size: 17px;
-  color: var(--headersColor);
+  color: var(--yellow);
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.akce__h2::after {
+  content: " ";
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: red;
 }
 
 .partners {
@@ -189,7 +213,6 @@ body {
 }
 
 .footer {
-  margin-top: 50px;
   padding: 5px 0;
   height: 35px;
   text-align: center;
@@ -199,9 +222,6 @@ body {
 /* tablet */
 /* 600px + */
 @media screen and (min-width: 600px) {
-  .about {
-    margin-top: 35px;
-  }
 
   .akce {
     padding: 25px 5px;
@@ -344,6 +364,7 @@ body {
   .menuPC-list__home--a {
     color: var(--darkblue);
   }
+  
 }
 
 /* 950px + */
@@ -365,7 +386,7 @@ body {
 
   .logoSF {
     width: 300px;
-    padding-left: 80px;
+    padding-left: 70px;
   }
 
   .menuPC-list__home {
@@ -403,7 +424,8 @@ body {
   }
 
   .container {
-    margin: 100px auto;
+    margin: 10px auto;
+    padding-top: 45px;
     max-width: 1200px;
     display: grid;
     grid-template-columns: 700px 1fr 1fr;
@@ -462,6 +484,9 @@ body {
     margin: 0;
     grid-column: 3;
     grid-row: 2 / 4;
+    border-top: 0;
+    border-bottom: 0;
+    border: solid 1.75px var(--yellow)
   }
 
   .akce__h2 {

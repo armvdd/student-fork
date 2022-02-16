@@ -220,6 +220,10 @@ body {
   background-color: var(--footerBgColor);
 }
 
+.footer-a {
+  color: var(--yellow);
+}
+
 /* tablet */
 /* 600px + */
 @media screen and (min-width: 600px) {

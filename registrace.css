@@ -1,6 +1,6 @@
 :root {
   --buttonColor: #00b3e3;
-  --buttonFontColor: #050069;
+  --buttonFontColor: #070094;
   --buttonHover: #df144c;
   --buttonFontHover: #f3f3fa;
 }
@@ -32,6 +32,8 @@ input{
   background-color: var(--buttonColor);
   border: none;
   color: var(--buttonFontColor);
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 #odeslat:hover{

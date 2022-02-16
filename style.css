@@ -30,6 +30,7 @@ body {
     url("images/background-gaeec.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 
 /* mobile frst , max 599px*/

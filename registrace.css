@@ -1,0 +1,70 @@
+:root {
+  --buttonColor: #00b3e3;
+  --buttonFontColor: #050069;
+  --buttonHover: #df144c;
+  --buttonFontHover: #f3f3fa;
+}
+/* mobile frst */
+
+.form-container {
+  max-width: 150px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.form {
+  width: 100%;
+}
+
+.formField {
+  width: 100%;
+}
+
+input{
+    width: 100%;
+}
+
+#odeslat {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: var(--buttonColor);
+  border: none;
+  color: var(--buttonFontColor);
+}
+
+#odeslat:hover{
+    background-color: var(--buttonHover);
+    color: var(--buttonFontHover)
+}
+
+/* 700px + */
+@media screen and (min-width: 700px){
+
+    .form-container {
+    max-width: 250px;
+    margin: auto;
+    padding-top: 120px 
+  }
+
+  input{
+      padding: 2px 0;
+  }
+
+}
+
+/* 1000px + */
+
+@media screen and (min-width: 1000px){
+
+    .form-container {
+        max-width: 350px;
+        margin: auto;
+      }
+    
+      input{
+        padding: 4px 0;
+    }
+
+}

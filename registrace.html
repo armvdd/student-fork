@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="registrace.css" />
     <title>Student Fork</title>
   </head>
   <body>
@@ -32,12 +33,16 @@
         </div>
         <ul class="menuMobile">
           <li class="menuMobile-list menuMobile-list__home">
-            <a href="/index.html" class="menuMobile-list--a menuMobile-list__home--a"
+            <a
+              href="/index.html"
+              class="menuMobile-list--a menuMobile-list__home--a"
               >HOME</a
             >
           </li>
           <li class="menuMobile-list menuMobile-list__aktivity">
-            <a href="/aktivity.html" class="menuMobile-list--a menuMobile-list__aktivity--a"
+            <a
+              href="/aktivity.html"
+              class="menuMobile-list--a menuMobile-list__aktivity--a"
               >AKTIVITY</a
             >
           </li>
@@ -55,47 +60,43 @@
             </li>
             <ul class="menuMobile-subMenu">
               <li
-                class="
-                  menuMobile-subMenu-list menuMobile-subMenu-list__ambasadori
-                "
+                class="menuMobile-subMenu-list menuMobile-subMenu-list__ambasadori"
               >
                 <a
                   href="/ambasadori.html"
-                  class="
-                    menuMobile-subMenu-list--a
-                    menuMobile-subMenu-list__ambasadori--a
-                  "
+                  class="menuMobile-subMenu-list--a menuMobile-subMenu-list__ambasadori--a"
                   >AMBASADOŘI</a
                 >
               </li>
               <li
-                class="
-                  menuMobile-subMenu-list menuMobile-subMenu-list__dobrovolnici
-                "
+                class="menuMobile-subMenu-list menuMobile-subMenu-list__dobrovolnici"
               >
                 <a
                   href="/dobrovolnici.html"
-                  class="
-                    menuMobile-subMenu-list--a
-                    menuMobile-subMenu-list__dobrovolnici--a
-                  "
+                  class="menuMobile-subMenu-list--a menuMobile-subMenu-list__dobrovolnici--a"
                   >DOBROVOLNÍCI</a
                 >
               </li>
             </ul>
           </div>
           <li class="menuMobile-list menuMobile-list__partneri">
-            <a href="/partneri.html" class="menuMobile-list--a menuMobile-list__partneri--a"
+            <a
+              href="/partneri.html"
+              class="menuMobile-list--a menuMobile-list__partneri--a"
               >PARTNEŘI/ŠKOLY</a
             >
           </li>
           <li class="menuMobile-list menuMobile-list__kontakt">
-            <a href="/kontakt.html" class="menuMobile-list--a menuMobile-list__kontakt--a"
+            <a
+              href="/kontakt.html"
+              class="menuMobile-list--a menuMobile-list__kontakt--a"
               >KONTAKT</a
             >
           </li>
           <li class="menuMobile-list menuMobile-list__reg">
-            <a href="/registrace.html" class="menuMobile-list--a menuMobile-list__reg--a"
+            <a
+              href="/registrace.html"
+              class="menuMobile-list--a menuMobile-list__reg--a"
               >REGISTRACE</a
             >
           </li>
@@ -106,10 +107,14 @@
       <div class="menuPC">
         <ul class="menuPC__ul">
           <li class="menuPC-list menuPC-list__home">
-            <a href="/index.html" class="menuPC-list--a menuPC-list__home--a">HOME</a>
+            <a href="/index.html" class="menuPC-list--a menuPC-list__home--a"
+              >HOME</a
+            >
           </li>
           <li class="menuPC-list menuPC-list__aktivity">
-            <a href="/aktivity.html" class="menuPC-list--a menuPC-list__aktivity--a"
+            <a
+              href="/aktivity.html"
+              class="menuPC-list--a menuPC-list__aktivity--a"
               >AKTIVITY</a
             >
           </li>
@@ -128,35 +133,37 @@
               <li class="menuPC-subMenu-list menuPC-subMenu-list__ambasadori">
                 <a
                   href="/ambasadori.html"
-                  class="
-                    menuPC-subMenu-list--a menuPC-subMenu-list__ambasadori--a
-                  "
+                  class="menuPC-subMenu-list--a menuPC-subMenu-list__ambasadori--a"
                   >AMBASADOŘI</a
                 >
               </li>
               <li class="menuPC-subMenu-list menuPC-subMenu-list__dobrovolnici">
                 <a
                   href="/dobrovolnici.html"
-                  class="
-                    menuPC-subMenu-list--a menuPC-subMenu-list__dobrovolnici--a
-                  "
+                  class="menuPC-subMenu-list--a menuPC-subMenu-list__dobrovolnici--a"
                   >DOBROVOLNÍCI</a
                 >
               </li>
             </ul>
           </div>
           <li class="menuPC-list menuPC-list__partneri">
-            <a href="/partneri.html" class="menuPC-list--a menuPC-list__partneri--a"
+            <a
+              href="/partneri.html"
+              class="menuPC-list--a menuPC-list__partneri--a"
               >PARTNEŘI/ŠKOLY</a
             >
           </li>
           <li class="menuPC-list menuPC-list__kontakt">
-            <a href="/kontakt.html" class="menuPC-list--a menuPC-list__kontakt--a"
+            <a
+              href="/kontakt.html"
+              class="menuPC-list--a menuPC-list__kontakt--a"
               >KONTAKT</a
             >
           </li>
           <li class="menuPC-list menuPC-list__reg">
-            <a href="/registrace.html" class="menuPC-list--a menuPC-list__reg--a"
+            <a
+              href="/registrace.html"
+              class="menuPC-list--a menuPC-list__reg--a"
               >REGISTRACE</a
             >
           </li>
@@ -164,8 +171,34 @@
       </div>
       <!-- PC verze menu KONEC-->
     </header>
-    <div class = "mainPart">
+    <!-- main part -->
+    <div class="mainPart">
+      <!-- formulář -->
+      <div class="form-container">
+        <form method="post" action="#" class = "form">
+          <!-- doplnit adresu pro odeslání formulář do action -->
+        <!-- login -->
+        <div class ="formField formField-login">
+          <label for = "login">login: </label>
+          <input type = "text" name = "login" id = "login" required>
+        </div>
+        <!-- email -->
+        <div class ="formField formField-email">
+          <label for = "email">email: </label>
+          <input type = "email" name = "email" id = "email" value = "@" required>
+        </div>
+        <!-- heslo -->
+        <div class ="formField formField-password">
+          <label for = "password">heslo: </label>
+          <input type = "password" name = "password" id = "password" required>
+        </div>
+        <!-- button -->
+        <button type = "submit" name = "odeslat" id = "odeslat">Odeslat</button>
+        </form>
+
       </div>
+
+    </div>
     <!-- footer -->
     <footer class="footer">
       <p class="footer__p">footer</p>

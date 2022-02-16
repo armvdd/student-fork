@@ -3,7 +3,6 @@
   --bodyColor: #f3f3fa;
   --yellow: #ffc843;
   --darkblue: #070094;
-  --darkblueTransparent: #07009400;
   --menuMobileBgColor: #00b3e3;
   --menuMobile-subMenu-borderColor: #1789ca;
   --headersColor: #df144c;
@@ -402,7 +401,7 @@ body {
 
   .menuPC-list--a {
     padding: 15px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .menuPC-list--a:hover {

@@ -1,0 +1,53 @@
+:root {
+  --fontColor: #f3f3fa;
+  --headersColor: #df144c;
+  --yellow: #ffc843;
+}
+
+/* mobile frst */
+
+.mainPart--aktivity {
+  padding: 65px 15px 5px 20px;
+}
+
+.mainPart--aktivity__h1 {
+  color: var(--headersColor);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.mainPart--aktivity__p2 {
+  margin-top: 10px;
+}
+
+.mainPart--aktivity--a {
+  color: var(--fontColor);
+}
+
+.mainPart--aktivity--a:hover {
+  color: var(--yellow);
+}
+
+/* tablet */
+/* 600px + */
+
+@media screen and (min-width: 600px) {
+  .mainPart--aktivity {
+    padding: 65px 20px 5px 25px;
+  }
+}
+
+/* 750px + */
+@media screen and (min-width: 750px) {
+  .mainPart--aktivity {
+    padding: 65px 25px 5px 25px;
+  }
+}
+
+/* 850px + */
+@media screen and (min-width: 850px) {
+  .mainPart--aktivity-container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}

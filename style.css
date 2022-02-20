@@ -182,6 +182,14 @@ body {
   margin-bottom: 15px;
 }
 
+.partners__p2--a {
+  color: var(--bodyColor);
+}
+
+.partners__p2--a:hover {
+  color: var(--yellow);
+}
+
 .newsletter {
   min-height: 100px;
   padding: 15px 5px 5px 10px;

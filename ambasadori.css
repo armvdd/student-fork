@@ -64,6 +64,10 @@
   .mainPart--ambasadori {
     padding: 65px 20px 65px 25px;
   }
+
+  .mainPart--ambasadori__h1 {
+    margin-bottom: 15px;
+  }
 }
 
 /* 750px + */
@@ -78,5 +82,9 @@
   .mainPart--ambasadori-container {
     width: 750px;
     margin: 0 auto;
+  }
+
+  .mainPart--ambasadori__h1 {
+    margin-bottom: 25px;
   }
 }

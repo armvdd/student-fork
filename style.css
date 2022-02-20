@@ -37,6 +37,10 @@ body {
   padding-bottom: 50px;
 }
 
+.mainPart--home-container {
+  padding: 65px 15px 65px 20px;
+}
+
 .logoSF {
   width: 150px;
   padding: 5px 0 0 5px;

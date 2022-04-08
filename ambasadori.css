@@ -4,6 +4,10 @@
   --red: #df144c;
   --yellow: #ffc843;
   --numberColor: #df144c;
+  --ambassadorsBtnBgColor: #00b3e3;
+  --ambassadorsBtnColor: #070094;
+  --ambassadorsBtnBgColor-hover: #df144c;
+  --ambassadorsBtnColor-hover: #f3f3fa;
 }
 
 /* mobile frst */
@@ -60,11 +64,23 @@
 }
 
 .mainPart--ambasadori__p3--a {
-  color: var(--fontColor);
+  /*color: var(--fontColor);*/
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: var(--ambassadorsBtnBgColor);
+  color: var(--ambassadorsBtnColor);
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .mainPart--ambasadori__p3--a:hover {
-  color: var(--yellow);
+  color: var(--ambassadorsBtnColor-hover);
+  background-color: var(--ambassadorsBtnBgColor-hover);
 }
 
 /* tablet */

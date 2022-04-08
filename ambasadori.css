@@ -3,6 +3,7 @@
   --headersColor: #df144c;
   --red: #df144c;
   --yellow: #ffc843;
+  --numberColor: #df144c;
 }
 
 /* mobile frst */
@@ -27,12 +28,21 @@
 }
 
 .mainPart--ambasadori__ol {
-  padding: 0 10px 0 35px;
+  padding: 0 10px 0 10px;
   margin-bottom: 25px;
+  list-style-type: none;
 }
 
+.mainPart--ambasadori__ol__li__num,
+.mainPart--ambasadori__ul__li__num {
+  font-family: "Catamaran";
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--numberColor);
+}
 .mainPart--ambasadori__ul {
   list-style-type: none;
+  padding-left: 10px;
 }
 
 .mainPart--ambasadori__ul__li {
@@ -74,6 +84,11 @@
 @media screen and (min-width: 750px) {
   .mainPart--ambasadori {
     padding: 65px 25px 65px 25px;
+  }
+
+  .mainPart--ambasadori__ol,
+  .mainPart--ambasadori__ul {
+    padding-left: 15px;
   }
 }
 

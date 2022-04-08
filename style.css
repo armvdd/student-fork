@@ -10,6 +10,7 @@
   --newsletterBtnColor: #070094;
   --footerBgColor: #da3ab3;
   --akceBorder: #ffc843;
+  --numberColor: #df144c;
 }
 
 * {
@@ -126,6 +127,13 @@ body {
   list-style-type: none;
   margin-top: 5px;
   font-size: 15px;
+}
+
+.about__ul__li__num {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Catamaran";
+  color: var(--numberColor);
 }
 
 .about__p3 {
@@ -501,6 +509,10 @@ body {
     color: var(--yellow);
   }
 
+  .mainPart {
+    padding-bottom: 150px;
+  }
+
   .container {
     margin: 10px auto;
     padding-top: 45px;
@@ -540,6 +552,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     font-size: 15px;
+    margin-top: 50px;
   }
 
   .partners__h2 {
@@ -551,6 +564,7 @@ body {
     grid-column: 1;
     grid-row: 4;
     justify-content: space-between;
+    margin-top: 75px;
   }
 
   .newsletter {

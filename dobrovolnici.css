@@ -3,6 +3,10 @@
   --headersColor: #df144c;
   --red: #df144c;
   --yellow: #ffc843;
+  --dobroBtnBgColor: #00b3e3;
+  --dobroBtnColor: #070094;
+  --dobroBtnBgColor-hover: #df144c;
+  --dobroBtnColor-hover: #f3f3fa;
 }
 
 /* mobile frst */
@@ -27,6 +31,22 @@
 
 .mainPart--dobrovolnici__ul__li {
   margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.dobro-card {
+  margin-top: 35px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 0.5px solid #99999914;
+  box-shadow: 6px 5px 6px -5px #9999998b;
+}
+
+.dobro-icon {
+  width: 60px;
+  margin: 5px 0;
+  margin-right: 25px;
 }
 
 .mainPart--dobrovolnici__p2 {
@@ -34,11 +54,22 @@
 }
 
 .mainPart--dobrovolnici__p2--a {
-  color: var(--fontColor);
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: var(--dobroBtnBgColor);
+  color: var(--dobrosBtnColor);
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .mainPart--dobrovolnici__p2--a:hover {
-  color: var(--yellow);
+  color: var(--dobroBtnColor-hover);
+  background-color: var(--dobroBtnBgColor-hover);
 }
 
 /* tablet */
@@ -58,6 +89,15 @@
 @media screen and (min-width: 750px) {
   .mainPart--dobrovolnici-container {
     padding: 65px 25px 65px 25px;
+  }
+  .mainPart--dobrovolnici__ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .dobro-card {
+    flex: 1 1 250px;
   }
 }
 

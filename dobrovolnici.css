@@ -9,6 +9,11 @@
   --dobroBtnColor-hover: #f3f3fa;
 }
 
+.menuMobile-list__reg,
+.menuPC-list__reg {
+  display: none;
+}
+
 /* mobile frst */
 
 .mainPart--dobrovolnici-container {

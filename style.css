@@ -33,6 +33,11 @@ body {
   min-height: 100vh;
 }
 
+.menuMobile-list__reg,
+.menuPC-list__reg {
+  display: none;
+}
+
 /* mobile frst , max 599px*/
 .mainPart {
   padding-bottom: 50px;
@@ -601,5 +606,10 @@ body {
   .newsletter__btn:hover {
     background-color: #df144c;
     color: #f3f3fa;
+  }
+
+  .menuMobile-list__reg,
+  .menuPC-list__reg {
+    display: none;
   }
 }

@@ -4,6 +4,11 @@
   --yellow: #ffc843;
 }
 
+.menuMobile-list__reg,
+.menuPC-list__reg {
+  display: none;
+}
+
 /* mobile frst */
 
 .mainPart--aktivity {

@@ -49,6 +49,20 @@
   box-shadow: 6px 5px 6px -5px #9999998b;
 }
 
+.mainPart--ambasadori__ol__li1,
+.mainPart--ambasadori__ol__li2,
+.mainPart--ambasadori__ol__li3,
+.mainPart--ambasadori__ol__li4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.am-card__icon {
+  width: 55px;
+}
+
 .mainPart--ambasadori__ol__li__num,
 .mainPart--ambasadori__ul__li__num {
   font-family: "Catamaran";
@@ -119,6 +133,20 @@
     padding: 65px 25px 65px 25px;
   }
 
+  .am-card1,
+  .am-card3 {
+    position: relative;
+  }
+
+  .mainPart--ambasadori__ol__li1 {
+    position: absolute;
+    top: 26%;
+  }
+
+  .mainPart--ambasadori__ol__li3 {
+    position: absolute;
+    top: 35.5%;
+  }
   .mainPart--ambasadori__ol,
   .mainPart--ambasadori__ul {
     padding-left: 15px;
